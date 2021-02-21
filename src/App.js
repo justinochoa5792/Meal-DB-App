@@ -77,6 +77,10 @@ function App() {
           </div>
           <h4>Instructions</h4>
           {recipes.strInstructions}
+          <h4>How to Video:</h4>
+          <a href={recipes.strYoutube} target="_blank" rel="noreferrer">
+            {recipes.strYoutube}
+          </a>
           <hr />
         </div>
       );
